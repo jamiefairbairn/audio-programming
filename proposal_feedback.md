@@ -1,6 +1,7 @@
+# Jamie proposal feedback - 3rd November 2026
+
 ## Scope
-1. Your proposal to build a guitar synthesiser with six separate audio effects and a full user interface within five weeks is ambitious but may be overscoped for the module.
-2. You could strip back the project to establish a clear minimum viable product focusing on real-time guitar input, one core synthesis transformation (such as pitch tracking or waveshaping), one primary effect (such as delay or distortion), and a basic control interface.
+1. Your proposal to build a guitar synthesiser with six separate audio effects and a full user interface within five weeks is ambitious but may be overscoped for the module. You could strip back the project to establish a clear minimum viable product focusing on real-time guitar input, one core synthesis transformation (such as pitch tracking or waveshaping), one primary effect (such as delay or distortion), and a basic control interface. This will ensure that you have submittable code early, and you can then work on the extension tasks one at a time.
 3. You could defer additional effect chains like reverb, chorus, tremolo, and EQ to optional extension tasks if time permits before the deadline.
 4. Refer to Week 4 (digital audio fundamentals) and Week 6 (delay lines) in the delivery schedule to review audio input and fundamental effects processing.
 
@@ -24,8 +25,6 @@
 1. Set up your local development toolchain (SuperCollider, Obsidian, GitHub) and verify that audio input and output routing work correctly (refer to Week 1). You can try a couple of examples that I emailed last week.
 2. Create a basic SynthDef that receives live input via SoundIn.ar and passes it through a simple wave-shaping UGen like Clip.ar.
 3. Establish your project repository with a PLAN.md file and set up your AI collaboration logbook template.
-
------
 
 * https://doc.sccode.org/Classes/SoundIn.html
 * https://doc.sccode.org/Classes/SynthDef.html
